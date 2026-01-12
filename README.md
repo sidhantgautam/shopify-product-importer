@@ -153,7 +153,9 @@ uvicorn app.main:app --reload
 ##### Create .env file:
 
 SHOPIFY_STORE_URL=your-store.myshopify.com
+
 SHOPIFY_ACCESS_TOKEN=your-access-token
+
 SHOPIFY_API_VERSION=2024-01
 
 
