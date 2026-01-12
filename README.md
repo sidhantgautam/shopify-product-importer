@@ -138,11 +138,17 @@ Excel result download
 ---
 ## Setup Instructions
 ### Backend
+
 cd backend
+
 python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
+
 uvicorn app.main:app --reload
+
 
 ##### Create .env file:
 
@@ -150,7 +156,11 @@ SHOPIFY_STORE_URL=your-store.myshopify.com
 SHOPIFY_ACCESS_TOKEN=your-access-token
 SHOPIFY_API_VERSION=2024-01
 
+
 ### Frontend
+
 cd frontend
+
 npm install
+
 npm run dev
